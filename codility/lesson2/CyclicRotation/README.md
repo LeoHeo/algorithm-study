@@ -43,3 +43,8 @@ Assume that:
 N and K are integers within the range [0..100];
 each element of array A is an integer within the range [−1,000..1,000].
 In your solution, focus on correctness. The performance of your solution will not be the focus of the assessment.
+
+## 후기
+- 맨 처음에는 어떻게 배열인자를 이동해야 할까 고민을 하면서 연습장에 끄적 끄적 거렸다.
+- 그러다보니 `i + K < length ? i + K : (i + K) % (length + 1)` 라는 공식을 발견했고
+- 공식을 이용해 수기로 테스트를 몇번 해보고 바로 코드로 옮겼더니 잘 되었다.
